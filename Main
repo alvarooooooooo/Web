@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álvaro Navarro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Álvaro Navarro</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#portfolio">Portafolio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <p>Hola, soy Álvaro Navarro, un profesional apasionado por [tu especialidad]. Con años de experiencia en [tu campo], me dedico a ofrecer servicios de alta calidad a mis clientes.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Servicio 1</li>
+                <li>Servicio 2</li>
+                <li>Servicio 3</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portafolio</h2>
+            <div class="gallery">
+                <div class="gallery-item">Proyecto 1</div>
+                <div class="gallery-item">Proyecto 2</div>
+                <div class="gallery-item">Proyecto 3</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="mailto:tuemail@example.com" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Álvaro Navarro. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
